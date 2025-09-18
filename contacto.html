@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
+        <style >
+.vl {
+  border-left: 1.5px solid black;
+  height: 1200px;
+  
+}
+</style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Examen progra U3</title>
   </head>
   <body>
     <hr>
+     <div class="vl" >
     <h1>Contacto</h1>
       <ul>
    <li> <a href="index.html"> Inicio  </a></li>
@@ -16,6 +23,45 @@
    <li> <a href="contacto.html">Contacto </a></li>
     </ul>
 
+    <h2>Contáctanos</h2>
 
+    <label for="">Nombre: </label>
+     <input type="text" name="name" id="name" autofocus value="" size="40" 
+      minlength="6" maxlength="50" required pattern="[A-Za-z]{50}" >
+      <br>
+     <label>
+        Correo electrónico:
+      </label>
+      <input type="email" name="" required pattern="[A-Za-z]{50}">
+      <br>
+      <label for="">Mensaje:</label>
+      <input type="text" size="50">
+      <br>
+      <br>
+      <button type="submit">Enviar</button>
+      <br>
+      
+      <h3>Datos del hotel</h3>
+       <p>📍 Dirección: Calle Tranquilidad 123, Ciudad Descanso</p>
+    
+      <p>📞Teléfono: (321)-654-0987</p>
+     
+      <p>📧 Email: reservas@hotelparaiso.com</p>
+      <br>
+      <h3>Horarios de atención</h3>
+      <ul>
+            <li>Recepción:24 horas</li>
+            <li>Desayuno: 7:00-10:00</li>
+            <li>Restaurante: 12:00-22:00</li>
+
+        </ul>
+      <br>
+      <h2>Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7281.630173477265!2d-110.3382226825536!3d24.143131217463825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ae2cb5aa5d9cad%3A0xacb64ace51dbcc6b!2sHotel%20Calafia!5e0!3m2!1ses-419!2smx!4v1758191881753!5m2!1ses-419!2smx" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br>
+        <p>© 2025 Hotel Paraíso</p>
+    </div>
     </body>
 </html>
